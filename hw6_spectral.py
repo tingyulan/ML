@@ -219,7 +219,6 @@ if __name__=='__main__':
         # eigenvector = np.load(filename+"_eigenvector.npy")
         # *******************************************
 
-        print("here")
         sort_idx = np.argsort(eigenvalue)
         mask = eigenvalue[sort_idx]>0
         sort_idx = sort_idx[mask]
